@@ -18,17 +18,17 @@ metadata:
   name: drone-cert
   namespace: default
 spec:
-  secretName: mydrone-drone-tls
+  secretName: drone-tls
   issuerRef:
     name: letsencrypt 
     kind: ClusterIssuer
-  commonName: drone.myhost.io # UPDATE
+  commonName: drone.mycorp.calm # UPDATE
   dnsNames:
-  - drone.myhost.io
+  - drone.mycorp.calm
   acme:
     config:
     - http01:
-        ingress: drone-server #UPDATE name of your ingress
+        ingress: drone-ingress #UPDATE name of your ingress
       domains:
-      - drone.myhost.io #UPDATE
+      - drone.mycorp.calm #UPDATE
  
