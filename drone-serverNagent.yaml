@@ -32,7 +32,7 @@ metadata:
     # database driver configuration string
     server.database.datasource: drone.sqlite
     # list of admin users
-    server.admin: appleboy
+    server.admin: Oleboy
 
     # remote parameters (GitHub)
     server.remote.github: "true"
