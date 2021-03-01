@@ -154,7 +154,7 @@ spec:
     namespace: drone
   data:
     # server host name
-    server.host: drone.example.com
+    server.host: drone.mycorp.calm
     # start the server in debug mode
     server.debug: "true"
     # open user registration
